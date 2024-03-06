@@ -1,0 +1,111 @@
+.xsm-100 {
+  width: 100%;
+}
+
+.xsm-50 {
+  width: 50%;
+}
+
+.xsm-33 {
+  width: 33.3333%;
+}
+
+.xsm-25 {
+  width: 25%;
+}
+
+.xsm-20 {
+  width: 20%;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) {
+  .sm-100 {
+    width: 100%;
+  }
+
+  .sm-50 {
+    width: 50%;
+  }
+
+  .sm-33 {
+    width: 33.3333%;
+  }
+
+  .sm-25 {
+    width: 25%;
+  }
+
+  .sm-20 {
+    width: 20%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  .md-100 {
+    width: 100%;
+  }
+
+  .md-50 {
+    width: 50%;
+  }
+
+  .md-33 {
+    width: 33.3333%;
+  }
+
+  .md-25 {
+    width: 25%;
+  }
+
+  .md-20 {
+    width: 20%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  .lg-100 {
+    width: 100%;
+  }
+
+  .lg-50 {
+    width: 50%;
+  }
+
+  .lg-33 {
+    width: 33.3333%;
+  }
+
+  .lg-25 {
+    width: 25%;
+  }
+
+  .lg-20 {
+    width: 20%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+  .xlg-100 {
+    width: 100%;
+  }
+
+  .xlg-50 {
+    width: 50%;
+  }
+
+  .xlg-33 {
+    width: 33.3333%;
+  }
+
+  .xlg-25 {
+    width: 25%;
+  }
+
+  .xlg-20 {
+    width: 20%;
+  }
+}

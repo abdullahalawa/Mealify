@@ -1,0 +1,33 @@
+:root:has(.mode:checked) body {
+  --primary-color: #c17e1f;
+  --hover-color: #d4953d;
+  --default-color: #000;
+  --opposite-default-color: #fff;
+  --background-color-1: #252525;
+  --menu-item-not-active-color: #9f9f9f;
+  --header-background-color: #171717;
+  --hero-section-title-color: #fff;
+  --hero-section-subtitle-color: #9f9f9f;
+  --section-subtitle-font-color: #7f7f90;
+  --section-title-font-color: #fff;
+  --gray-cards-titles-font-colors: #7d7d7d;
+  --contact-cards-background-color: #000;
+  --chef-cards-background-color: #171717;
+  --chef-desc-color: #9f9f9f;
+}
+
+:root:has(.mode:checked) body {
+  background-color: #202020;
+}
+
+:root:has(.mode:checked) .dark {
+  display: none;
+}
+
+:root:has(.mode:checked) .light {
+  display: block;
+}
+
+:root:has(.mode:checked) div.chef-item div.chef-content::before {
+  background-image: url(../images/team-shape-dark.svg);
+}
